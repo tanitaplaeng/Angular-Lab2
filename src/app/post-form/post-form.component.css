@@ -2,10 +2,6 @@ h3{
     font-family: 'Dosis', sans-serif;
 }
 
-.post-form-container { 
-    background-color: grey;
-}
-
 .post-form { 
     display: flex;
     flex-direction: column;

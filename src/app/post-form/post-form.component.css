@@ -1,0 +1,30 @@
+h3{ 
+    font-family: 'Dosis', sans-serif;
+}
+
+.post-form-container { 
+    background-color: grey;
+}
+
+.post-form { 
+    display: flex;
+    flex-direction: column;
+    background-color: #B1DDEA;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 450px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.add-btn { 
+    background-color: white;
+    border-radius: 8px;
+}
+
+.input-title,
+.input-thought{ 
+    border-radius: 8px; 
+    font-family: 'Dosis', sans-serif;
+    padding: 8px;
+}

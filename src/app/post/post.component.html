@@ -1,0 +1,16 @@
+<div class="post-container">
+    <div class="post"> 
+        <div class="post-title">
+            <h2>{{ post.title }}</h2>
+        </div>
+        <div class="post-content">
+            <p>{{ post.thought }}</p>
+            <button
+                class="remove-btn"
+                (click)="deletePost()"> 
+                    <span class="material-icons">delete_outline</span>
+            </button>          
+        </div>
+    </div>
+</div>
+

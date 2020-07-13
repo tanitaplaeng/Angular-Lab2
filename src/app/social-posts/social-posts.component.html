@@ -1,0 +1,26 @@
+<div class="main">
+<h1>My Thoughts</h1>
+
+<button
+    class="newThought-btn"
+    (click)="onToggleThought($)">
+    New Thought
+</button>
+
+<div class="post-form">
+    <app-post-form  
+    (submitted)="onSubmit($event)"
+    *ngIf="thoughtForm">
+    </app-post-form>
+</div>
+
+<div class="social-posts">
+    <app-post
+    (deleted)="onDelete($event)"
+    *ngFor="let item of posts"
+    [post]="item"></app-post>
+</div>
+
+
+<!-- [] input 
+() output  -->
